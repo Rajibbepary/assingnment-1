@@ -96,7 +96,7 @@
 
   .section-1{
     width: 1140px;
-    height: 1300px;
+    height: 1200px;
     background-color:#0D132105 ;
     margin-top: 100px;
     margin-left: 57px;
@@ -211,4 +211,23 @@
   }
  .btn-second:hover{
   background-color: rgba(100, 148, 237, 0.858);
+}
+
+/* Inspiration-section-style */
+
+.Inspiration-section{
+  text-align: center;
+  margin-top:10px ;
+}
+.Inspiration-section h1{
+  font-size:40px ;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: #0D1321;
+}
+.Inspiration-section p{
+  font-size:18px ;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  margin-bottom: 30px;
 }
