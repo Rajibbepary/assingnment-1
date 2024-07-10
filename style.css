@@ -231,3 +231,116 @@
   color: rgb(13, 19, 33);
   margin-bottom: 30px;
 }
+
+/* my-current-section-style */
+
+.my-current-section{
+  margin-top:100px ;
+  text-align: center;
+}
+.my-current-section h1{
+  font-weight: 800;
+  font-size:36px ;
+  color: #000000e4;
+}
+.my-current-section p{
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  margin-top: 15px;
+  line-height: normal;
+}
+
+/* Target-img-section styel */
+
+.Target-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:30px ;
+  width:100% ;
+  height:400px ;
+}
+
+.Target-img1{
+  width: 350px;
+  height:250px ;
+  background: hsl(300, 19%, 87%);
+  float: left;
+  border-radius:10px ;
+}
+.target-div img{
+margin-top: 30px;
+margin-left: 40px;
+height: 50px;
+}
+.target-div h3{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.target-div p{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.target-div a>p{
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/*...................*/
+.Target-img2{
+  width: 350px;
+  height:250px ;
+  background: rgba(0, 76, 232, 0.05);
+  float: left;
+  border-radius:10px ;
+}
+.target-div2 img{
+margin-top: 30px;
+margin-left: 40px;
+height: 50px;
+}
+.target-div2 h3{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.target-div2 p{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.target-div2 a>p{
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+
+.Target-img3{
+  width: 350px;
+  height:250px ;
+  background: hsl(300, 19%, 87%);
+  float: left;
+  border-radius:10px ;
+}
+.target-div3 img{
+margin-top: 30px;
+margin-left: 40px;
+height: 50px;
+}
+.target-div3 h3{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.target-div3 p{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.target-div3 a>p{
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: bold;
+}
