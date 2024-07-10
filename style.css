@@ -50,7 +50,7 @@
    .header-button{
     margin-top:40px ;
    }
-   button {
+   .bttn {
     border-radius: 4px;
     background-color: #0D1321;
     border: none;
@@ -64,14 +64,14 @@
     cursor: pointer;
   }
   
-  .button span {
+  .bttn span {
     cursor: pointer;
     display: inline-block;
     position: relative; 
     transition: 0.5s;
   }
   
-  .button span:after {
+  .bttn span:after {
     content: '\00bb';
     position: absolute; 
     opacity: 0;
@@ -80,11 +80,135 @@
     transition: 0.5s;
   }
   
-  .button:hover span {
+  .bttn:hover span {
     padding-right: 25px;
   }
   
-  .button:hover span:after {
+  .bttn:hover span:after {
     opacity: 1;
     right: 0;
   }
+
+  /* button style end */
+
+
+  /* main section-1 style start */
+
+  .section-1{
+    width: 1140px;
+    height: 1300px;
+    background-color:#0D132105 ;
+    margin-top: 100px;
+    margin-left: 57px;
+    margin-right: 0;
+  } 
+
+  .head-titel{
+    text-align: center;
+    margin-top: 150px;
+  }
+  .head-titel h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0;
+    color:#0D1321 ;
+  }
+
+  .head-titel p{
+    font-size:18px ;
+    font-weight: 400;
+    margin-top:10px ;
+    padding:5px ;
+    color: #0D1321;
+  }
+
+  /* banner-section1 style */
+
+  .banner-section1{
+    height: 300px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-section-header1 h2{
+    margin-left:35px ;
+    font-size:22px ;
+    font-weight: 600;
+    margin-right: 0;
+    color:#0D1321B3 ;
+    font-family:"Azeret Mono" ;
+  }
+  .banner-section-header1 p{
+    margin-left: 35px;
+    margin-top:20px ;
+  }
+  .btn{
+    margin-left:35px ;
+    padding:10px 20px ;
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+    background: #0D1321;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+  }
+  .btn:hover{
+    background-color: rgba(100, 148, 237, 0.858);
+  }
+  /* banner-section-2-style */
+
+  .banner-section2{
+    height: 300px;
+    width: 800px;
+    background: rgb(255, 255, 255);
+    margin-left: 15%;
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .banner-section-header2 h2{
+    margin-left:35px ;
+    font-size:22px ;
+    font-weight: 600;
+    margin-left: 150px;
+    color:#0D1321B3 ;
+    font-family:"Azeret Mono" ;
+  }
+  .banner-section-header2 p{
+    margin-left: 150px;
+    margin-top:20px ;
+  }
+  .btn{
+    margin-left:35px ;
+    padding:10px 20px ;
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+    background: #0D1321;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+  }
+
+  .btn-second{
+    margin-left:150px ;
+    padding:10px 20px ;
+    margin-top: 20px;
+    border: none;
+    font-size: 17px;
+    background: #0D1321;
+    color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; ;
+  }
+ .btn-second:hover{
+  background-color: rgba(100, 148, 237, 0.858);
+}
